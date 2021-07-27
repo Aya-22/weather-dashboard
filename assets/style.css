@@ -1,0 +1,44 @@
+.dashboard {
+    margin: 0;
+    padding: 1%;
+    background: linear-gradient(to right, blue, rgb(52, 157, 243));
+    color: white;
+    text-align: center;
+    font-family: ;
+}
+
+.sidenav {
+    height: auto;
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 200px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    border: solid;
+    border-radius: 4px 4px 4px 4px;
+    background: grey;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.input-group {
+    width: 160px;
+}
+
+.container {
+    border: solid black;
+    width: 75%;
+    height: 25%;
+}
