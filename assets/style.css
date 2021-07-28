@@ -4,16 +4,12 @@
     background: linear-gradient(to right, blue, rgb(52, 157, 243));
     color: white;
     text-align: center;
-    font-family: ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .sidenav {
     height: auto;
     width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 200px;
 }
