@@ -1,12 +1,12 @@
 var key = "011270d41f698434cf9cd446d6dc399e";
 
-var location = document.getElementsByClassName('weather');
+// var loc = document.getElementsByClassName('weather');
 
 function getApi(lat,lon) {
  var requestUrl = 'https://api.openweathermap.org/data/2.5/onecall?lat=' +lat+'&lon=' +lon+'&exclude=hourly,minutely,alerts&appid=' + key;   
   fetch(requestUrl)
     .then(function (response) {
-      console.log(location);  
+ 
       return response.json();
   }) .then(function (data) {
     console.log(data);
